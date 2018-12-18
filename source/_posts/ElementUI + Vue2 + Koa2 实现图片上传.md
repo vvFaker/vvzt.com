@@ -50,7 +50,7 @@ router.post('/upload', upload.single('file'), userController.upload);
 
 ## 需要注意的是
 
-> 前端需要设置传输格式 enctype=multipart/form-data ， 在  ```<el-upload>``` 中 :header=personal.headers
+前端需要设置传输格式 **enctype=multipart/form-data** ，在 <***el-upload***> 中添加 **:header=personal.headers**
 
 ```
 personal: {
