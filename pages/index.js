@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 export default () => (
     <div>
         <Head>
-            <title>{ config.name }</title>
+            <title>{ config.title }</title>
         </Head>
 
         <div className='header'>
