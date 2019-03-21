@@ -28,25 +28,26 @@ export default class MyDocument extends Document {
                     <meta name='HandheldFriendly' content='True' />
 
                     <link rel='canonical' content={config.site} />
-                    <link rel='author' href='https://plus.google.com/114197786731970943237' />
-                    <link rel='publisher' href='https://plus.google.com/114197786731970943237' />
+                    {/* <link rel='author' href='https://plus.google.com/114197786731970943237' />
+                    <link rel='publisher' href='https://plus.google.com/114197786731970943237' /> */}
 
-                    <meta property='og:title' content={config.name} />
+                    {/* <meta property='og:title' content={config.name} />
                     <meta property='og:description' content={config.description} />
                     <meta property='og:locale' content='en_US' />
                     <meta property='og:type' content='website' />
                     <meta property='og:url' content={config.site} />
                     <meta property='og:image' content={config.site + 'static/mario400x346.jpg?v=1'} />
-                    <meta property='og:site_name' content={config.name} />
+                    <meta property='og:site_name' content={config.name} /> */}
 
-                    <meta property='fb:admins' content='100000470641337' />
-                    <meta property='fb:profile_id' content='100000470641337' />
+                    {/* <meta property='fb:admins' content='100000470641337' />
+                    <meta property='fb:profile_id' content='100000470641337' /> */}
 
-                    <meta name='twitter:card' content='summary' />
+                    {/* <meta name='twitter:card' content='summary' />
                     <meta name='twitter:site' content='@inlife360' />
                     <meta name='twitter:creator' content='@inlife360' />
-                    <meta name='twitter:description' content={config.description} />
+                    <meta name='twitter:description' content={config.description} /> */}
 
+                    <link rel="shortcut icon" href={config.site + 'static/icon.png'}></link>
                     <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet' type='text/css' />
                     <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css' />
                     <link href='https://fonts.googleapis.com/css?family=Roboto:700,300' rel='stylesheet' type='text/css' />

@@ -22,7 +22,10 @@ export default () => (
             <div id='projects'>
 
 <ul>
-<li><p><strong>librg</strong> <br />
+    <li>
+        <strong>哦豁，暂时还没有拿得出手的项目..</strong>
+    </li>
+{/* <li><p><strong>librg</strong> <br />
 <strong>type:</strong> open-source, team<br />
 <strong>year:</strong> 2017-2018 <br />
 <strong>link:</strong> <a href="https://github.com/librg/librg"rel="noopener noreferrer" target="_blank">https://github.com/librg/librg</a> <br />
@@ -127,7 +130,7 @@ export default () => (
 <strong>description:</strong> This project was a backend PHP MVC framework. It was used for creation of small projects. Latest versions were inspired by Symfony2 framework. It even had own template language, based on regex, with module-plugin like dependent system and partial caching.<br />
 <strong>responsibilities:</strong> Developing whole codebase (frontend &amp;&amp; backend), application architecture oriented on DRY and code reusing, minor php-level performance optimizations<br />
 <strong>used technologies:</strong> php5.1-php.5.3, apache httpd, mysql, git, html5, css3, js</p>
-</li>
+</li> */}
 </ul>
             </div>
         </div>
