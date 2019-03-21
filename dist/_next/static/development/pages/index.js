@@ -64,6 +64,7 @@ var _jsxFileName = "Z:\\Workspace\\FE\\inlife.github.io\\components\\Footer.js";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+var title = '信心花舍';
 var name = 'vzt7';
 var role = 'Front-End Engineer';
 var site = 'https://vvzt.github.io/';
@@ -71,6 +72,7 @@ var yearsOfExp = new Date();
 var keywords = ['vzt7', 'vvzt'].concat(name.split(' '), role.split(' ')).join(' ');
 var description = "Hey! I am ".concat(name, ", a ").concat(role, ".");
 /* harmony default export */ __webpack_exports__["default"] = ({
+  title: title,
   name: name,
   role: role,
   site: site,
@@ -10511,7 +10513,7 @@ var _jsxFileName = "Z:\\Workspace\\FE\\inlife.github.io\\pages\\index.js";
       lineNumber: 10
     },
     __self: this
-  }, _config__WEBPACK_IMPORTED_MODULE_1__["default"].name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, _config__WEBPACK_IMPORTED_MODULE_1__["default"].title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "header",
     __source: {
       fileName: _jsxFileName,
