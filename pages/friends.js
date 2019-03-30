@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 export default () => (
     <div>
         <Head>
-            <title>{ config.name } - Friends</title>
+            <title>{ config.title } - Friends</title>
         </Head>
 
         <div className='header'>
@@ -15,7 +15,7 @@ export default () => (
                 <Link prefetch href='/'><a><i className='fa fa-angle-left'></i> back</a></Link>
             </div>
 
-            <h1>friends:</h1>
+            <h1>friends' link:</h1>
         </div>
 
         <div className='content animated fadeIn'>
