@@ -27,16 +27,7 @@ var _jsxFileName = "Z:\\Workspace\\FE\\inlife.github.io\\components\\Footer.js";
       lineNumber: 3
     },
     __self: this
-  }, "made with ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    target: "_blank",
-    rel: "noopener noreferrer",
-    href: "https://github.com/inlife/inlife.github.io",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: this
-  }, "inlife"), " , ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "smaller",
     __source: {
       fileName: _jsxFileName,
@@ -50,7 +41,23 @@ var _jsxFileName = "Z:\\Workspace\\FE\\inlife.github.io\\components\\Footer.js";
       lineNumber: 3
     },
     __self: this
-  })), " 2019"));
+  })), " 2019 , reference ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-github",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
+    rel: "noopener noreferrer",
+    href: "https://github.com/inlife/inlife.github.io",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, "inlife")));
 });
 
 /***/ }),
@@ -10567,7 +10574,7 @@ var _jsxFileName = "Z:\\Workspace\\FE\\inlife.github.io\\pages\\index.js";
       lineNumber: 21
     },
     __self: this
-  }, "SCUEC"), " \u7684\u5927\u56DB\u5B66\u751F\uFF0C\u4ECA\u5E74\u516D\u6708\u6BD5\u4E1A\u3002"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+  }, "SCUEC"), " \u7684\u5927\u56DB\u5B66\u751F\uFF0C\u4ECA\u5E74\u516D\u6708\u672C\u79D1\u6BD5\u4E1A"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
@@ -10576,13 +10583,13 @@ var _jsxFileName = "Z:\\Workspace\\FE\\inlife.github.io\\pages\\index.js";
   }, "\u5373\u5C06\u52A0\u5165 ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
     rel: "noopener noreferrer",
-    href: "https://cn.bing.com/search?q=\u7F51\u6613",
+    href: "https://campus.163.com/app/netease/Introduce",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, "\u7F51\u6613"), " \uFF0C\u76EE\u524D\u7684\u5C0F\u76EE\u6807\uFF1A\u6210\u4E3A\u4E00\u540D\u4F18\u79C0\u7684\u524D\u7AEF\u5F00\u53D1\u5DE5\u7A0B\u5E08")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "\u7F51\u6613"), " \uFF0C\u76EE\u524D\u7684\u5C0F\u76EE\u6807\uFF1A\u6210\u4E3A\u4E00\u540D\u81EA\u7531\u7684\u524D\u7AEF\u7814\u53D1\u5DE5\u7A0B\u5E08")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "mid-bar",
     __source: {
       fileName: _jsxFileName,
@@ -10596,7 +10603,7 @@ var _jsxFileName = "Z:\\Workspace\\FE\\inlife.github.io\\pages\\index.js";
       lineNumber: 27
     },
     __self: this
-  }, "#frontend, #fake-backend, #ocd-fool"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "#frontend, #ocd-fool"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "links",
     __source: {
       fileName: _jsxFileName,
@@ -10605,51 +10612,51 @@ var _jsxFileName = "Z:\\Workspace\\FE\\inlife.github.io\\pages\\index.js";
     __self: this
   }, "my ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     prefetch: true,
-    href: "/projects",
+    href: "/experiences",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
-  }, "projects")), " | my ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, "exp")), " | my ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     prefetch: true,
     href: "/friends",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }, "friends")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "link-bar",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "mailto:vvzt666666@foxmail.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-envelope",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -10658,20 +10665,20 @@ var _jsxFileName = "Z:\\Workspace\\FE\\inlife.github.io\\pages\\index.js";
     href: "https://github.com/vvzt",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-github",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 46
     },
     __self: this
   }));
