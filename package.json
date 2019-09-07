@@ -1,30 +1,18 @@
 {
-  "name": "vvzt.github.io",
+  "name": "with-redux",
   "version": "1.0.0",
-  "description": "@vvzt's site",
-  "main": "gulpfile.js",
   "scripts": {
-    "start": "next",
-    "export": "next build && next export -o dist && cp static/robots.txt dist/ && echo '' > dist/.nojekyll",
-    "publish": "git push origin `git subtree split --prefix dist next`:master --force"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vvzt/vvzt.github.io.git"
-  },
-  "author": "vvzt",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vvzt/vvzt.github.io/issues"
-  },
-  "homepage": "https://vvzt.github.io",
-  "devDependencies": {},
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "animate.css": "^3.7.0",
-    "next": "^7.0.2",
-    "normalize.css": "^8.0.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
-  }
+    "next": "latest",
+    "react": "^16.9.0",
+    "redux-devtools-extension": "^2.13.2",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "redux": "^3.6.0"
+  },
+  "license": "ISC"
 }

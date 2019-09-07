@@ -1,48 +1,33 @@
-import config from '../config'
-import Head from 'next/head'
-import Link from 'next/link'
+import React from 'react'
+import { connect } from 'react-redux'
+import { startClock, serverRenderClock } from '../store'
+import Examples from '../components/examples'
 
-import Footer from '../components/Footer'
+class Index extends React.Component {
+  static getInitialProps ({ reduxStore, req }) {
+    const isServer = !!req
+    // DISPATCH ACTIONS HERE ONLY WITH `reduxStore.dispatch`
+    reduxStore.dispatch(serverRenderClock(isServer))
 
-export default () => (
-    <div>
-        <Head>
-            <title>{ config.title }</title>
-        </Head>
+    return {}
+  }
 
-        <div className='header'>
-            <h1>Yoo!</h1>
-        </div>
+  componentDidMount () {
+    // DISPATCH ACTIONS HERE FROM `mapDispatchToProps`
+    // TO TICK THE CLOCK
+    this.timer = setInterval(() => this.props.startClock(), 1000)
+  }
 
-        <div className='content animated fadeIn'>
-            <div className='top-bar'>
-                <h2>I'm <strong>{ config.name }</strong></h2>
-                {/* <h2>{ config.role } <strong>w/</strong> &gt;{config.yearsOfExp} years of experience</h2> */}
-                <h3>目前是一个迷茫中的前端仔</h3>
-                {/* <h4></h4> */}
-                {/* <h5><input></input></h5> */}
-            </div>
+  componentWillUnmount () {
+    clearInterval(this.timer)
+  }
 
-            <div className='mid-bar'>
-                <div className='hashtags'>#frontend, #ocd-fool</div>
-                <div className='links'>
-                    {/* my <Link prefetch href='/projects'><a>projects</a></Link> | */}
-                    my <Link prefetch href='/experiences'><a>exp.</a></Link> |
-                    my <Link prefetch href='/friends'><a>friends</a></Link>
-                    {/* my <Link prefetch href='/projects'><a>projects</a></Link> | */}
-                    {/* my <a target='_blank' rel='noopener noreferrer' href={config.site + 'static/Vladyslav_Hrytsenko.pdf'}>c.v.</a> */}
-                </div>
-            </div>
-
-            <div className='link-bar'>
-                <a href='mailto:vvzt666666@foxmail.com'><i className='fa fa-envelope'></i></a>
-                <a target='_blank' rel='noopener noreferrer' href='https://github.com/vvzt'><i className='fa fa-github'></i></a>
-                {/* <a target='_blank' rel='noopener noreferrer' href='https://facebook.com/inlife360'><i className='fa fa-facebook-official'></i></a> */}
-                {/* <a target='_blank' rel='noopener noreferrer' href='https://twitter.com/inlife360'><i className='fa fa-twitter'></i></a> */}
-                {/* <a target='_blank' rel='noopener noreferrer' href='https://angel.co/inlife360'><span className='smaller'><i className='fa fa-angellist'></i></span></a> */}
-            </div>
-        </div>
-
-        <Footer />
-    </div>
-)
+  render () {
+    return <Examples />
+  }
+}
+const mapDispatchToProps = { startClock }
+export default connect(
+  null,
+  mapDispatchToProps
+)(Index)
