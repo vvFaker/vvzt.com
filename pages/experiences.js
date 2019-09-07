@@ -4,6 +4,21 @@ import Head from 'next/head'
 import config from '../config'
 import Footer from '../components/Footer'
 
+const COMPS = [
+    {
+        name: '51信用卡',
+        date: '2018/06/05 - 2018/09/20',
+        jd: '前端开发（实习）',
+        desc: 'Hybrid, Weex, H5, 快应用'
+    },
+    {
+        name: '网易有道',
+        date: '2019/07/01 - NOW',
+        jd: '前端开发',
+        desc: 'NEJ, Regular, React, Rx.js'
+    }
+];
+
 export default () => (
     <div>
         <Head>
@@ -21,12 +36,17 @@ export default () => (
         <div className='content animated fadeIn'>
             <div id='projects'>
 
-<ul>
-    <li>
-      <h3>51信用卡 <time style={{ fontSize: 'medium' }}>· 2018/06/05 - 2018/09/20</time></h3>
-      <p style={{ lineHeight: '130%' }}>前端开发（实习）<br /> Hybrid, Weex, H5, 快应用</p>
-    </li>
-</ul>
+            <ul>
+                {
+                    COMPS.map(comp => (
+                        <li>
+                            <h3>{ comp.name } <time style={{ fontSize: 'medium' }}>· { comp.date }</time></h3>
+                            <p style={{ lineHeight: '130%', textIndent: '2rem', }}>{ comp.jd }<span style={{ fontSize: '14px' }}> - { comp.desc }</span></p>
+                        </li>
+                    ))
+                }
+            </ul>
+
             </div>
         </div>
 
