@@ -7,8 +7,6 @@
         "start": "next start"
     },
     "dependencies": {
-        "matter-js": "^0.14.2",
-        "matter-tools": "^0.11.1",
         "next": "latest",
         "react": "^16.9.0",
         "react-dom": "^16.9.0",
