@@ -1,8 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { useSelector, useStore } from 'react-redux';
 
+import HOC from './proxyHOC';
 
-export default function() {
+const test = function() {
+    const s = useSelector(store => store);
+    console.log(s);
     return (
-        <div id='world' ref={worldNode}></div>
+        <div id='world'>{ JSON.stringify(s) }</div>
     )
-}
+};
+
+export default HOC(test);

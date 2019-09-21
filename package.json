@@ -15,5 +15,6 @@
         "redux-devtools-extension": "^2.13.2",
         "rxjs": "^6.5.3"
     },
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {}
 }
