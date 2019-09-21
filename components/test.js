@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useSelector, useStore } from 'react-redux';
 
-import HOC from './proxyHOC';
+import HOC from '../hocs/proxyHOC';
 
 const test = function() {
     const s = useSelector(store => store);

@@ -7,14 +7,21 @@
         "start": "next start"
     },
     "dependencies": {
+        "@zeit/next-sass": "^1.0.1",
         "next": "latest",
+        "node-sass": "^4.12.0",
         "react": "^16.9.0",
         "react-dom": "^16.9.0",
+        "react-pose": "^4.0.8",
         "react-redux": "^7.1.0",
         "redux": "^3.6.0",
         "redux-devtools-extension": "^2.13.2",
-        "rxjs": "^6.5.3"
+        "rxjs": "^6.5.3",
+        "styled-components": "^5.0.0-beta.8"
     },
     "license": "ISC",
-    "devDependencies": {}
+    "devDependencies": {
+        "babel-plugin-macros": "^2.6.1",
+        "babel-plugin-styled-components": "^1.10.6"
+    }
 }
